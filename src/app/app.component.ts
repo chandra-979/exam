@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-class AppComponent implements OnInit{
+export class AppComponent implements OnInit{
   
   constructor(private service:SolutionService,private fb: FormBuilder){}
   
@@ -25,6 +25,5 @@ class AppComponent implements OnInit{
     }
     
     
-export class AppComponent {
-  title = 'Exam';
+
 }
